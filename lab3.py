@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 all = open('file.txt', 'r')
 s = all.read().lower().strip().split()
 y = 0
@@ -14,10 +8,6 @@ for i in s:
         y = z
         m = i
 print(m, y)
-
-
-# In[ ]:
-
 
 
 
